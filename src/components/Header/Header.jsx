@@ -24,7 +24,7 @@ const nav_links = [
     display: "Home",
   },
   {
-    path: "shop",
+    path: "furnitures",
     display: "Furnitures",
   },
   {
