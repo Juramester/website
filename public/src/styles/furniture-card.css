@@ -1,0 +1,56 @@
+.furniture_item {
+  cursor: pointer;
+}
+
+.furniture_info h3 a {
+  font-size: 1rem;
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-top: 15px;
+}
+.furniture_info span {
+  font-size: 0.9rem;
+}
+
+.furniture_info a:hover {
+  color: inherit;
+}
+
+.furniture_card-bottom .price {
+  font-size: 1.1rem;
+  font-weight: 100;
+  color: var(--primary-color);
+}
+
+.furniture_card-bottom span i {
+  font-size: 1.1rem;
+  padding: 5px;
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 50px;
+}
+@media only screen and (max-widht: 992px) {
+  .furniture_info h3 a {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-widht: 768px) {
+  .furniture_info h3 a {
+    font-size: 1rem;
+  }
+  .furniture_card-bottom span i {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .furniture_item {
+    max-width: 55%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 572px) {
+  .furniture_item {
+    max-width: 46%;
+    text-align: center;
+  }
+}
