@@ -52,7 +52,7 @@ const Cart = () => {
               <p></p>
               <div>
                 {" "}
-                <Link to="/shop">
+                <Link to="/furnitures">
                   <button className="my_btn w-100 mt-2">
                     Continue Shoping
                   </button>

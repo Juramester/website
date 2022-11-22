@@ -19,7 +19,7 @@ const Roots = () => {
       <Route path="login" element={<LogIn />} />
       <Route path="signup" element={<SignUp />} />
       <Route path="furnitures" element={<Furnitures />} />
-      <Route path="furnitures/:id" element={<FurnitureDetails />} />
+      <Route path="shop/:id" element={<FurnitureDetails />} />
       <Route path="cart" element={<Cart />} />
 
       <Route

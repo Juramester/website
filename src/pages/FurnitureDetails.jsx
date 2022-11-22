@@ -103,7 +103,7 @@ const FurnitureDetails = () => {
                 >
                   <i class="ri-shopping-cart-2-fill "></i> Furniture Purchase
                 </motion.button>
-                <Link to="/shop">
+                <Link to="/furnitures">
                   <motion.button whileTap={{scale:1.2}} className="my_btn d-flex  mt-3">
                     <i class="ri-arrow-go-back-line"></i>
                     Continue Shoping
