@@ -23,6 +23,7 @@ const SignUp = () => {
   const [password, setPassword] = useState("");
   const [username, setUsername] = useState("");
   const [loading, setLoading] = useState(false);
+  
 
   const navigate = useNavigate();
 
@@ -63,7 +64,7 @@ const SignUp = () => {
       navigate("/login");
     } catch (error) {
       setLoading(false);
-      toast.error("ERROR!(short password!)");
+      toast.error("ERROR!(Something is wrong!)");
     }
   };
 
